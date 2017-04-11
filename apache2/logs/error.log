@@ -1,0 +1,14 @@
+[Tue Apr 11 20:30:42.167195 2017] [mpm_winnt:notice] [pid 8616:tid 752] AH00455: Apache/2.4.6 (Win32) PHP/5.4.17 configured -- resuming normal operations
+[Tue Apr 11 20:30:42.167195 2017] [mpm_winnt:notice] [pid 8616:tid 752] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:15:41
+[Tue Apr 11 20:30:42.167195 2017] [core:notice] [pid 8616:tid 752] AH00094: Command line: 'I:\\usbwebserver4/apache2/bin/httpd_usbwv8.exe -d I:/usbwebserver4/apache2'
+[Tue Apr 11 20:30:42.175703 2017] [mpm_winnt:notice] [pid 8616:tid 752] AH00418: Parent: Created child process 140
+[Tue Apr 11 20:30:42.712638 2017] [mpm_winnt:notice] [pid 140:tid 600] AH00354: Child: Starting 64 worker threads.
+[Tue Apr 11 21:08:58.563255 2017] [:error] [pid 140:tid 1244] [client ::1:58465] PHP Parse error:  syntax error, unexpected end of file in I:\\usbwebserver4\\root\\login.php on line 34, referer: http://localhost:8080/login.php
+[Tue Apr 11 21:21:32.714512 2017] [:error] [pid 140:tid 1252] [client ::1:59566] PHP Notice:  Undefined variable: leerlingnummer in I:\\usbwebserver4\\root\\register.php on line 9, referer: http://localhost:8080/login.php
+[Tue Apr 11 21:21:32.714512 2017] [:error] [pid 140:tid 1252] [client ::1:59566] PHP Notice:  Undefined variable: wachtwoord in I:\\usbwebserver4\\root\\register.php on line 9, referer: http://localhost:8080/login.php
+[Tue Apr 11 21:22:21.551295 2017] [:error] [pid 140:tid 1252] [client ::1:59670] PHP Notice:  Undefined variable: leerlingnummer in I:\\usbwebserver4\\root\\register.php on line 9, referer: http://localhost:8080/login.php
+[Tue Apr 11 21:22:21.551295 2017] [:error] [pid 140:tid 1252] [client ::1:59670] PHP Notice:  Undefined variable: wachtwoord in I:\\usbwebserver4\\root\\register.php on line 9, referer: http://localhost:8080/login.php
+[Tue Apr 11 21:24:00.002861 2017] [:error] [pid 140:tid 1252] [client ::1:59827] PHP Notice:  Undefined variable: servername in I:\\usbwebserver4\\root\\register.php on line 9, referer: http://localhost:8080/login.php
+[Tue Apr 11 21:25:53.189763 2017] [:error] [pid 140:tid 1248] [client ::1:59991] PHP Parse error:  syntax error, unexpected end of file in I:\\usbwebserver4\\root\\register.php on line 52, referer: http://localhost:8080/login.php
+[Tue Apr 11 21:26:20.102370 2017] [:error] [pid 140:tid 1248] [client ::1:60029] PHP Notice:  Undefined variable: servername in I:\\usbwebserver4\\root\\register.php on line 10, referer: http://localhost:8080/login.php
+[Tue Apr 11 21:45:08.590670 2017] [:error] [pid 140:tid 1248] [client ::1:61661] PHP Fatal error:  Call to a member function bindParam() on a non-object in I:\\usbwebserver4\\root\\register.php on line 11, referer: http://localhost:8080/register.php
